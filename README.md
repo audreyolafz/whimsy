@@ -2,9 +2,27 @@
 Welcome to Whimsy, a compiler created in Java. Say goodbye to semicolons, curly brackets, and multiline pieces of code to do simple things.
 Buckle up, all you need is a `.txt` file to write in Whimsy and `Compiler.java` :) 
 
-## Creating Ints and Strings
+## Creating Variables
+There are clear indicators around each part of a variable. 
+### Text (Strings)
+To set a text variable, first let the compiler know it is going to be text with `t`. Then have opening and closing square brackets `[]` around the variable name. Put an `=` sign, and finally put the text you want to store between quotations. 
+```
+ t <hiVar> = "hi"
+```
+This piece of code stores the text `"hi"` in a variable called `hiVar`.
+
+### Numbers (Integers)
+To create a variable storing a number, use `n` first to indicate that it's a number. Put the variable name between opening and closing square brackets `[]` and equal signs following it. Then insert the integer value you would like to store.
+```
+n [zero] = 0
+``` 
+Here `0` is stored in the variable aptly named `zero`.
 
 ## User input
+To ask the user to input some text, simply run the `ask()` command.
+```
+ask("Enter your name: ")
+```
 
 ## Math
 ### Addition
