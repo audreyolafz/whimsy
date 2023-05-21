@@ -1,6 +1,13 @@
 # Whimsy ✨
-Welcome to Whimsy, a compiler created in Java. Say goodbye to semicolons, curly brackets, and multiline pieces of code to do simple things.
+Welcome to Whimsy, a compiler created in Java. Say goodbye to semicolons, curly brackets, and multiline pieces of code to do simple things. <br>
 Buckle up, all you need is a `.txt` file to write in Whimsy and `Compiler.java` :) 
+
+## Printing Statements
+Forget `print()`, `console.log()`, `System.out.println()`, and all the other ways to do the simple yet essential task of displaying some data on the command-line. <br>
+Say hello to `display()`. Just put what you want to print in between the parentheses.
+```
+display("Hello world.")
+```
 
 ## Creating Variables
 There are clear indicators around each part of a variable. 
@@ -73,4 +80,10 @@ To spice things up, comments now appear in the form of `$$$`. <br>
 Here is an example of a comment: <br>
 ```
 $$$ I won't run, this is just a comment
+```
+
+### Errors
+Accidently mistyped Whimsy's syntax? Fear not! The command-line will tell you what piece of code "doesn't compile."
+```
+"Error: fakeMethod()" doesn't compile.
 ```
