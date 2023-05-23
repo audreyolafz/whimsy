@@ -72,8 +72,18 @@ To find the remainder when dividing two numbers, simply add a `%` symbol.
 The output should be `7`, since 67 goes into 10 a total of 6 times, with 7 remaining.
 
 ## Conditions
+Instead of `if` statements, we have `logic()` statements, because that is what `if` statements really are.
+```
+logic(3>=3): display("It's true")
+```
+Since 3 is indeed >= to 3, the program outputs "It's true".
 
 ## Loops
+Simply indicate how many times you want to loop to run within `loop()`.
+```
+loop(5): display("I'm printing this 5 times")
+```
+This piece of code will output "I'm printing this 5 times" on 5 different lines.
 
 ## Comments
 To spice things up, comments now appear in the form of `$$$`. <br>
