@@ -46,32 +46,32 @@ The output should be `5`.
 ### Subtraction
 Similar to subtraction, just include a `-` to subtract two numbers. <br>
 ```
-77-13
+77 - 13
 ```
 The output should be `64`.
 
 ### Multiplication
 To multiply, put an `*` between the two values. The order does not matter. <br>
 ```
-4*5
+4 * 5
 ```
 The output should be `20`.
 
 ### Division
 Dividing just requires a `/` between the two numbers. Keep in mind the result will always be an integer, so the decimal places are cut off. <br>
 ```
-120/10
+120 / 10
 ```
 The output should be `12`.
 ```
-12/10
+12 / 10
 ```
 The output should be `1`.
 
 ### Remainder
 To find the remainder when dividing two numbers, simply add a `%` symbol.
 ```
-67%10
+67 % 10
 ```
 The output should be `7`, since 67 goes into 10 a total of 6 times, with 7 remaining.
 
@@ -79,9 +79,13 @@ The output should be `7`, since 67 goes into 10 a total of 6 times, with 7 remai
 Conditions allow a certain piece of code to run depending on other variables. Currently only `if` conditions are supported. <br>
 Instead of `if` statements, we have `logic()` statements, because that is what `if` statements really are.
 ```
-logic(3>=3): display("It's true")
+logic(3>=3): display("3 is greater than or equal to 3")
+logic(5<3): display("5 is less than 3")
+logic(hiVar==heyVar)
 ```
-Since 3 is indeed >= to 3, the program outputs `It's true`.
+Since 3 is indeed >= to 3, the program outputs `It's true`. <br>
+5 is not less than 3, so it will not print anything.
+`hiVar` and `heyVar` contain different values, so it will not display anything.
 
 ## Loops
 If you want to run a piece of code multiple times, use the `loop()` function.
